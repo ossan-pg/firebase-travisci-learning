@@ -11,6 +11,5 @@ deploy:
   skip_cleanup: true
   token:
     secure: $FIREBASE_TOKEN
-  project: "travis-ci-f841a"
   on:
     branch: develop
