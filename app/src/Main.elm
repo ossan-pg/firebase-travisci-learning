@@ -4,4 +4,4 @@ import Html exposing (div, text)
 
 
 main =
-    div [] []
+    div [] [ text "Hello, world!" ]
