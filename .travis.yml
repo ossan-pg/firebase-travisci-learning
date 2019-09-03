@@ -5,10 +5,7 @@ branches:
   only:
     - develop
 script:
-  - cd app
-  - elm-format --validate src/ && elm-test
-after_success:
-  - cd -
+  - elm-format --validate app/ && elm-test app/
 deploy:
   provider: firebase
   skip_cleanup: true
